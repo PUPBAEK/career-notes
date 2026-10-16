@@ -3,6 +3,8 @@
 백승일(서비스기획 / PM)의 이력서·포트폴리오·면접 준비용 커리어 정리본.
 
 - 작성 규칙: [CLAUDE.md](CLAUDE.md)
+- 사용 가이드·명령어: [guides/how-to-use.md](guides/how-to-use.md)
+- 업무 세션 프롬프트: [guides/work-session-prompt.md](guides/work-session-prompt.md)
 - 기준일: 2026-10-16
 
 ## 목차
@@ -23,6 +25,7 @@ companies/
 └─ iara/        아이아라 (2022.08 ~ 12)
 side-projects/  FCOSTYLE, 요즘 유행 테스트
 applications/   회사별 제출본
+guides/         사용 가이드, 업무 세션 프롬프트
 ```
 
 각 폴더의 README.md에 회사 개요와 프로젝트 요약이 있다.
@@ -37,4 +40,4 @@ applications/   회사별 제출본
 | 2022.08 ~ 2022.12 | ㈜아이아라 | PL |
 
 ## 갱신 방법
-각 대화 세션에서 "career-notes 레포의 `companies/<회사>/<프로젝트>.md` 갱신해서 커밋해줘"라고 요청한다.
+[guides/how-to-use.md](guides/how-to-use.md)의 명령어를 각 대화에 붙여넣는다.

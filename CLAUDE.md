@@ -28,6 +28,7 @@ applications/<회사>-<직무>.md        회사별 제출본(자소서·이력�
 | `companies/ninefive/`, `companies/haicunsi/`, `companies/iara/` | 커리어 세션 (종료된 경력, 사실 정정만) |
 | `side-projects/` | 사이드 프로젝트 세션 |
 | `applications/` | 커리어 세션 |
+| `guides/` | 커리어 세션 |
 
 - 자기 담당 폴더만 고친다. 다른 폴더 수정이 필요하면 사용자에게 먼저 말한다.
 - 새 프로젝트는 해당 회사 폴더에 kebab-case 영문 파일명으로 추가하고, 회사 README의 프로젝트 목록 표에도 한 줄 추가한다.
