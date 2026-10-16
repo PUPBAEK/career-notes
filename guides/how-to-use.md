@@ -14,6 +14,9 @@
 
 ## 2. 붙여넣기용 명령어
 
+> 모든 명령어에 레포 이름(PUPBAEK/career-notes)이 들어 있어서, 레포를 모르는 대화에서도 그대로 동작한다.
+> 단 "커리어 노트 반영해줘" 같은 짧은 말은 work-session-prompt가 프로젝트 지침에 들어 있는 Project 안에서만 통한다.
+
 ### A. 오늘 업무 반영 (업무 대화 끝날 때)
 ```
 GitHub 레포 PUPBAEK/career-notes를 쓰기 권한으로 연결해줘.
@@ -25,27 +28,27 @@ GitHub 레포 PUPBAEK/career-notes를 쓰기 권한으로 연결해줘.
 
 ### B. 새 프로젝트 시작
 ```
-career-notes 레포 연결해서 companies/knowmerce/에 새 프로젝트 파일을 만들어줘.
+GitHub 레포 PUPBAEK/career-notes를 쓰기 권한으로 연결하고, 레포의 CLAUDE.md 규칙대로 companies/knowmerce/에 새 프로젝트 파일을 만들어줘.
 프로젝트명: <이름> / 파일명: <kebab-case>.md
 지금까지 이 대화에서 나온 배경·내 역할·범위로 초안 잡고, 폴더 README 프로젝트 목록에도 추가해줘.
 ```
 
 ### C. 결과 확정 ([확인 필요] 해소)
 ```
-career-notes 레포 연결해서 companies/knowmerce/<파일>.md의 [확인 필요] 항목 중
+GitHub 레포 PUPBAEK/career-notes를 쓰기 권한으로 연결하고, 레포의 CLAUDE.md 규칙대로 companies/knowmerce/<파일>.md의 [확인 필요] 항목 중
 "<항목>"을 "<확정된 결과>"로 바꾸고, 회사 README의 대표 성과·이력서 문장에도 반영해줘.
 ```
 
 ### D. 이력서·자소서 작업 (커리어 대화에서)
 ```
-career-notes 레포 최신본을 연결해서 읽고 작업해줘. CLAUDE.md 규칙을 따르고,
+GitHub 레포 PUPBAEK/career-notes를 쓰기 권한으로 연결해서 최신본을 읽고 작업해줘. 레포의 CLAUDE.md 규칙을 따르고,
 [확인 필요] 항목은 쓰지 마. 결과물은 applications/<회사>-<직무>.md로 저장하고 커밋해줘.
 작업: <예: KREAM Pay 결제 기획 자소서 4문항 / 사람인 경력기술서 노머스 항목 갱신>
 ```
 
 ### E. 정기 점검 (월 1회 권장)
 ```
-career-notes 레포 연결해서 전체 점검해줘.
+GitHub 레포 PUPBAEK/career-notes를 연결해서 레포의 CLAUDE.md 기준으로 전체 점검해줘.
 - 남아 있는 [확인 필요] 목록
 - 실명·금액·내부 식별값 같은 규칙 위반
 - 회사 README 이력서 문장과 프로젝트 파일 사이 불일치
