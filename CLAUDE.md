@@ -14,18 +14,28 @@
 - 확인된 사실이 바뀌면 기존 문장을 고치고, 문서 상단 기준일을 갱신한다.
 
 ## 파일 구조와 담당
-| 경로 | 내용 | 갱신하는 세션 |
-|---|---|---|
-| `projects/knowmerce.md` | 노머스 프로젝트 | 노머스 업무 세션 |
-| `projects/side-projects.md` | FCOSTYLE, 요즘 유행 테스트 | 사이드 프로젝트 세션 |
-| `projects/ninefive.md` | 나인파이브 프로젝트 | 커리어 세션 |
-| `applications/` | 회사별 제출본(자소서·이력서) | 커리어 세션 |
+```
+companies/<회사>/README.md          회사 개요, 기간·역할, 프로젝트 목록, 공통 어필
+companies/<회사>/<프로젝트>.md       프로젝트 1개 = 파일 1개
+side-projects/README.md             AI 활용 방식, 공통 역량
+side-projects/<프로젝트>.md
+applications/<회사>-<직무>.md        회사별 제출본(자소서·이력서)
+```
 
-- 자기 담당 파일만 고친다. 다른 파일 수정이 필요하면 사용자에게 먼저 말한다.
+| 경로 | 갱신하는 세션 |
+|---|---|
+| `companies/knowmerce/` | 노머스 업무 세션 (현 직장) |
+| `companies/ninefive/`, `companies/haicunsi/`, `companies/iara/` | 커리어 세션 (종료된 경력, 사실 정정만) |
+| `side-projects/` | 사이드 프로젝트 세션 |
+| `applications/` | 커리어 세션 |
+
+- 자기 담당 폴더만 고친다. 다른 폴더 수정이 필요하면 사용자에게 먼저 말한다.
+- 새 프로젝트는 해당 회사 폴더에 kebab-case 영문 파일명으로 추가하고, 회사 README의 프로젝트 목록 표에도 한 줄 추가한다.
+- 이직 시 새 회사 폴더를 만든다. 이전 회사 폴더는 종료 기간을 적고 닫는다.
 
 ## 프로젝트 정리 형식
 배경 / 내 역할 / 핵심 의사결정과 근거 / 문제 해결(STAR) / 산출물 / 성과 / 어필 포인트
 
 ## 커밋
 - 커밋 전 `git pull`로 최신본을 받는다.
-- 커밋 메시지: `[파일명] 무엇을 바꿨는지` (예: `[knowmerce] 알림음 운영 반영 결과 추가`)
+- 커밋 메시지: `[회사/프로젝트] 무엇을 바꿨는지` (예: `[knowmerce/fromm-notification-sound] 운영 반영 결과 추가`)
